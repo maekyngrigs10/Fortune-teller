@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fortune teller</title>
+    </head>
+    <body>
+        <h1><code>Let me tell you your fortune</code></h1>
+        <div class="qs">
+        <form>
+        <h2 class="first" >What is your name?</h2>
+        <input var="name" id="q1" placeholder="enter name here" required>
+        <h2 class="second">How old are you?</h2>
+        <input var="age"  id="q2" placeholder="enter age here"required>
+        <h2 class="third" >How many times a week do you drink energy drinks/coffee?</h2>
+        <input id="q3" var="often" placeholder="enter how often here"required>
+        <h2 class="fourth">What is your favorite brand/type?</h2>
+        <input id="q4" class="brand" required placeholder="enter brand here"><br>
+        <br></form>
+            
+            <button id="submit" onclick="myfunction()">Submit Here</button>
+        
+        </div>
+        <div class="fortune">
+            <h1>here's your fortune, enjoy!</h1>
+            <h2><span id="age">By the time you are </span>
+            <span id="often">you would have drank </span>
+            <span id="brand">of </span>
+            <span id="name">. . . Way to go </span>
+                 you little caffeinated demon! </h2>
+            <button class="reset">reset</button>
+        </div>
+    </body>
+</html>
