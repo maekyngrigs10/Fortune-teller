@@ -1,0 +1,31 @@
+body{
+    text-align:center;
+}
+input{
+    background-color:lightblue;
+    color:midnightblue;
+    border-color:lightpink;
+    }
+input:hover{
+ background-color:lightpink;  
+    border-color:lightblue;
+}
+
+button{
+    background-color:lightpink;
+    border-color:lightblue;
+}
+button:hover{
+    background-color:lightblue;
+    border-color:lightpink;
+    transition-duration:2s;
+}
+h1{
+    color:lightskyblue;
+}
+h2{
+    color:hotpink;
+}
+.fortune{
+    display:none;
+}
